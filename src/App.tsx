@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Robotmaaiers from './pages/Robotmaaiers';
 import Configurator from './pages/Configurator';
 import SEOPage from './pages/SEOPage';
+import WirelessLanding from './pages/WirelessLanding';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Route path="/robotmaaiers" element={<Robotmaaiers />} />
           <Route path="/configurator" element={<Configurator />} />
           <Route path="/info/:slug" element={<SEOPage />} />
+          <Route path="/actie/robotmaaier-zonder-snoer" element={<WirelessLanding />} />
         </Routes>
         <Footer />
       </div>
