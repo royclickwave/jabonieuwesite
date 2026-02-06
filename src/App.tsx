@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Robotmaaiers from './pages/Robotmaaiers';
 import Configurator from './pages/Configurator';
+import SEOPage from './pages/SEOPage';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/robotmaaiers" element={<Robotmaaiers />} />
           <Route path="/configurator" element={<Configurator />} />
+          <Route path="/info/:slug" element={<SEOPage />} />
         </Routes>
         <Footer />
       </div>
