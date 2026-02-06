@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { CheckCircle2, ArrowRight, ShieldCheck, MapPin, Zap, Settings2 } from 'lucide-react';
+import { CheckCircle2, ArrowRight, MapPin, Zap, Settings2 } from 'lucide-react';
 import { seoPages } from '../data/seoPagesData';
 
 const SEOPage = () => {
@@ -9,7 +9,7 @@ const SEOPage = () => {
 
     if (!page) {
         return (
-            <div className="container" style={{ padding: '200px 0', textAllign: 'center' }}>
+            <div className="container" style={{ padding: '200px 0', textAlign: 'center' }}>
                 <h1>Pagina niet gevonden</h1>
                 <Link to="/" className="btn btn-primary">Terug naar home</Link>
             </div>

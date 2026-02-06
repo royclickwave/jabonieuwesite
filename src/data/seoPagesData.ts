@@ -45,6 +45,27 @@ export const seoPages: Record<string, SEOContent> = {
         metaTitle: 'Robotmaaier Ede | Dé Automower Specialist',
         metaDesc: 'Robotmaaier in Ede nodig? JABO biedt Husqvarna Automowers inclusief vakkundige installatie en service in heel Ede.'
     },
+    'robotmaaier-amsterdam': {
+        slug: 'robotmaaier-amsterdam',
+        title: 'Robotmaaier Amsterdam',
+        subtitle: 'Premium Gazononderhoud in de Hoofdstad',
+        h1: 'Husqvarna Robotmaaier in Amsterdam: Perfectie voor elke stadstuin',
+        intro: 'Zoekt u een robotmaaier in Amsterdam? Van de statige grachtenpanden met binnentuinen tot de ruimere kavels in Amsterdam-Noord en Amstelveen, JABO Tuin & Park is uw specialist voor de vakkundige installatie van Husqvarna Automowers.',
+        content: [
+            {
+                title: 'Specialist voor stadstuinen in Amsterdam',
+                text: 'Een tuin in Amsterdam is vaak een kostbaar bezit. Wij begrijpen dat u hier optimaal van wilt genieten zonder het lawaai van een traditionele grasmaaier. Onze Husqvarna modellen zijn fluisterstil en perfect voor de stedelijke omgeving.'
+            },
+            {
+                title: 'Draadloze installatie in Amsterdam',
+                text: 'In Amsterdam kan de ondergrond uitdagend zijn of zijn er veel obstakels. Met onze NERA en EPOS technologie kunnen we vaak installeren zonder begrenzingsdraad (GPS-gestuurd), wat ideaal is voor complexe stadstuinen.'
+            }
+        ],
+        uspTitle: 'Waarom JABO voor Amsterdam?',
+        ctaTitle: 'Advies voor uw tuin in Amsterdam',
+        metaTitle: 'Robotmaaier Amsterdam | Husqvarna Automower Specialist JABO',
+        metaDesc: 'Wilt u een robotmaaier kopen in Amsterdam? JABO Tuin & Park levert premium Husqvarna Automowers inclusief installatie en service in heel regio Amsterdam.'
+    },
     // TECHNIEK CLUSTERS
     'husqvarna-automower-nera': {
         slug: 'husqvarna-automower-nera',
